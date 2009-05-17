@@ -5,4 +5,5 @@
 <b:block name="block2">
     <div>this is block2 in page4.jsp </div>
 </b:block>
+<b:block name="block1"></b:block>
 </b:blocks>

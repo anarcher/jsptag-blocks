@@ -33,7 +33,17 @@ public class BlockTag extends BodyTagSupport {
     @Override
     public int doEndTag() throws JspException {
         if(!blocksTag.isRendered()) {
-            blocksTag.addBlockContent(name,bodyContent.getString());
+            String bc = null;
+            if(bodyContent != null) {
+                bc = bodyContent.getString();
+            }
+            else {
+                bc = "";
+            }
+
+            if(bc != null) {
+                blocksTag.addBlockContent(name,bc);
+            }
             return EVAL_PAGE;
         }
 
