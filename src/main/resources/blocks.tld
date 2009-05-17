@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+        http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <tlibversion>1.0</tlibversion> 
+    <shortname>blocks</shortname> 
+    <uri>ss.blocks</uri> 
+    <info>jsptags-blocks</info> 
+ 
+    <tag> 
+        <name>blocks</name> 
+        <tagclass>springsprout.tag.blocks.BlocksTag</tagclass> 
+        <info>blocks tag</info> 
+        <bodycontent>JSP</bodycontent> 
+        <attribute>
+            <name>with</name>
+            <required>false</required>
+        </attribute>
+    </tag> 
+    <tag> 
+        <name>block</name> 
+        <tagclass>springsprout.tag.blocks.BlockTag</tagclass> 
+        <info>block tag</info> 
+        <bodycontent>JSP</bodycontent> 
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag> 
+    <tag> 
+        <name>super</name> 
+        <tagclass>springsprout.tag.blocks.BlockSuperTag</tagclass> 
+        <info>block super tag</info> 
+        <bodycontent>empty</bodycontent> 
+        <attribute>
+        </attribute>
+    </tag> 
+</taglib> 
+ 
