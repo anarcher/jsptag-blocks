@@ -4,17 +4,10 @@
   <groupId>anarch</groupId>
   <artifactId>jsptag-blocks</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
   <name>jsptag-blocks</name>
 
   <dependencies>
-    <dependency>
-        <groupId>net.scholnick</groupId>
-        <artifactId>tagit</artifactId>
-        <version>1.0</version>
-        <scope>system</scope>
-        <systemPath>${project.basedir}/lib/tagit.jar</systemPath>
-    </dependency>
     <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-mock</artifactId>

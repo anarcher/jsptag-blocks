@@ -6,7 +6,7 @@
         version="2.0">
     <tlibversion>1.0</tlibversion> 
     <shortname>blocks</shortname> 
-    <uri>ss.blocks</uri> 
+    <uri>springsprout.blocks</uri> 
     <info>jsptags-blocks</info> 
  
     <tag> 
